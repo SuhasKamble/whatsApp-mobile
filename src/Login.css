@@ -1,0 +1,51 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: white;
+  text-align: center;
+}
+.login__container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+.login__logo {
+  height: 155px;
+  object-fit: contain;
+}
+.login__info {
+  height: 70%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login__container button {
+  background-color: #25d366 !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  margin-top: 1rem;
+  font-weight: 800;
+  font-size: 16px !important;
+  width: fit-content;
+}
+.login__bottom {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}
+.login__bottom > h4 {
+  font-weight: 400;
+}
+.login__bottom > h3 {
+  color: #25d366;
+  font-weight: 700;
+}
